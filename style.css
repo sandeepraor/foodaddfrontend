@@ -16,26 +16,24 @@
   position: absolute;
   width: 100vw;
   height: 100vh;
-  margin-top: 5vh;
 }
 .content-text {
   width: 100%;
   margin-top: 8vh;
-  margin-left: 9rem;
+  margin-left: 6rem;
 }
 .content-text h3 {
   color: rgb(243, 79, 79);
-  font-weight: bold;
+  font-style: normal;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.8em;
+  font-size: 3em;
 }
 .content-text h5 {
   color: rgb(15, 60, 145);
-  font-weight: 100;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.4em;
+  font-size: 2em;
 }
 .sign-up {
   height: 8vh;
@@ -88,10 +86,10 @@
   flex-direction: column;
 }
 .content-btns {
-  margin-top: 10vh;
+  margin-top: 12vh;
   display: flex;
   align-items: center;
-  height: 20vh;
+  height: 25vh;
   flex-direction: column;
 }
 .content-btns button {
@@ -111,10 +109,35 @@
   padding: 0.5rem 0.2rem;
 }
 .content-input-fields label {
-  color: white;
+  color: rgb(17, 15, 134);
+  font-weight: 500;
   font-size: 1.2rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 0.2em 0;
-  border: 2px solid black;
+}
+.follow-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-top: 4vh;
+  margin-left: 29vh;
+  width: 30%;
+}
+.signup-link {
+  margin-top: 2vh;
+}
+.fa-facebook {
+  background: none;
+  color: white;
+}
+.fa-twitter {
+  background: none;
+  color: white;
+}
+.logo-width {
+  display: flex;
+  justify-content: space-between;
+  width: 3rem;
 }
