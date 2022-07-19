@@ -5,51 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="main-page">
-      <div class="video-div">
-        <video autoplay muted loop id="background-video">
-          <source src="production ID_4543685.mp4" type="video/mp4" />
-        </video>
+    <video
+      width="1500px"
+      autoplay
+      muted
+      loop
+      id="background-video"
+      src="pasta.mp4"
+    ></video>
+    <div class="video-above-content">
+      <div class="content-text">
+        <h3>Welcome Back</h3>
+        <h5>Sign in to continue</h5>
       </div>
-      <div class="video-above-content">
-        <div class="content-text">
-          <h3>Welcome Back</h3>
-          <h5>Sign in to continue</h5>
+      <div class="content-input-fields">
+        <div class="sign-up">
+          <label for="signup">Email</label>
+          <input
+            class="place"
+            type="text"
+            placeholder="  Enter you're mail id"
+            name="signpup"
+          />
         </div>
-        <div class="content-input-fields">
-          <div class="sign-up">
-            <label for="signup">Email</label>
-            <input
-              class="place"
-              type="text"
-              placeholder="  Enter you're mail id"
-              name="signpup"
-            />
-          </div>
-          <div class="password-input">
-            <label for="  password">Password</label>
-            <input type="password" placeholder="password" name="signpup" />
-          </div>
+        <div class="password-input">
+          <label for="  password">Password</label>
+          <input type="password" placeholder="password" name="signpup" />
         </div>
-        <div class="content-btns">
-          <button class="sign-in-btn" onclick="">Sign in</button>
-          <button class="google-sign-in" onclick="">Google Sign in</button>
+      </div>
+      <div class="content-btns">
+        <button class="sign-in-btn" onclick="">Sign in</button>
+        <button class="google-sign-in" onclick="">Google Sign in</button>
 
-          <a class="signup-link">Don't have account ? Sign up</a>
-        </div>
-        <div class="follow-us">
-          <div><h3>follow-us</h3></div>
-          <div class="logo-width">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-          </div>
+        <a class="signup-link">Don't have account ? Sign up</a>
+      </div>
+      <div class="follow-us">
+        <div><h3>follow-us</h3></div>
+        <div class="logo-width">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
         </div>
       </div>
     </div>
