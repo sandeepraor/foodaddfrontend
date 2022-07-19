@@ -134,27 +134,29 @@ input:focus-visible {
   padding: 0.2em 0;
 }
 .follow-us {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: column;
-  margin-top: 4vh;
-  margin-left: 29vh;
-  width: 30%;
+  justify-content: center;
+  margin-top: 0.5rem;
 }
 .signup-link {
   margin-top: 2vh;
 }
 .fa-facebook {
+  text-decoration: none;
   background: none;
-  color: white;
+  color: rgb(207, 29, 58);
+  font-size: 1.2rem;
 }
 .fa-twitter {
+  text-decoration: none;
   background: none;
-  color: white;
+  color: rgb(207, 29, 58);
+  font-size: 1.2rem;
 }
 .logo-width {
   display: flex;
   justify-content: space-between;
-  width: 3rem;
+  width: 5rem;
 }
